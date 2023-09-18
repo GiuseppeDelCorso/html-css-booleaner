@@ -1,0 +1,73 @@
+body{
+    width: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.immagine-logo{
+    background-color: rgb(9, 153, 241);
+    height: 70px;
+    background-image:url(logo.svg), url(pattern.png);
+    background-size: 150px, 250px;
+    background-position: left bottom ,left center;
+    background-repeat: no-repeat,repeat-x;
+    margin: 0px;
+} 
+.titolo{
+    margin-top: 4px;
+    
+}
+#scrittore{
+    margin-top: -15px;
+    font-style: bold;
+}
+#colore1{
+    color: dimgray;
+}
+#colore2{
+    color: blue;
+}
+#primotesto{ 
+ font-size: 20px;
+}
+#coloreprimotesto{
+    background-color: yellow;
+}
+table{
+    border-collapse: collapse;
+    table-layout : auto; 
+    width: 100%;
+}
+th {
+    background-color: blue;
+    color: white;
+    table-layout: fixed;
+}
+td{
+    text-align: center;
+    table-layout: fixed;
+    width: 60px;    
+}
+.colorerigatabella{
+    background-color: aqua;
+}
+#testofooter{
+    margin-top: 5px;
+    color: dimgray;
+}
+#primaimmaginefooter{
+    background-image: url(monitor.jpg);
+    width: 220px;
+    height: 170px;
+    background-size: cover;
+    color: white;
+    margin-bottom: 5px;
+    
+}
+#secondaimmaginefooter{
+    margin-top: 10px;
+    background-image: url(graph.jpg);
+    width: 220px;
+    height: 170px;
+    background-size: contain;
+    color: white;
+}
